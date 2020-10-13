@@ -1,0 +1,281 @@
+
+:root {
+    /* Header background color */
+    --color-bg-header: #102027;
+
+    /* Light background */
+    --color-bg-light: #c1c1c1;
+
+    /*--color-chart-bar: #3F51B5;*/
+    --color-chart-bar: #303F9F;
+    --color-chart-bar-hover: #3D5AFE;
+    --color-chart-bar-selected: #304FFE;
+
+    /* Fakultaet colors */
+    --color-chart-production: #FF9800;
+    --color-chart-logistics: #4fba6f;
+    --color-chart-it: #48a0dc;
+    --color-chart-marketing: #556080;
+    --color-chart-other: #F44336;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+noscript {
+    z-index: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    /* The main font for our website is Montserrat by Google. Why? Well.. because it looks nicer :) */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+/* Generic text-related styles */
+h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+h2.white {
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* The site header element */
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: var(--color-bg-header);
+    color: white;
+    padding: 16px;
+}
+
+/* The main container element that holds all contents */
+main {
+    display: flex;
+    justify-content: space-around;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    position: relative;
+    padding: 16px 0;
+    overflow: hidden;
+    max-width: 1920px;
+}
+
+#bar-chart-container {
+    width: 65%;
+    max-width: 1024px;
+    height: 400px;
+    position: relative;
+}
+
+div.detail-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    width: 30%;
+    height: 100%;
+    min-height: 400px;
+}
+
+#donut-chart-container {
+    width: 100%;
+    max-width: 350px;
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    display: none;
+}
+
+td {
+    padding: 10px 16px;
+    text-align: start;
+    border-bottom: 1px solid var(--color-bg-light);
+}
+
+tr > td:last-child {
+    text-align: end;
+    min-width: 80px;
+}
+
+th {
+    color: white;
+}
+
+div.production {
+    background-color: var(--color-chart-production);
+}
+
+div.logistics {
+    background-color: var(--color-chart-logistics);
+}
+
+path.logistics {
+    fill: var(--color-chart-logistics);
+}
+
+div.it {
+    background-color: var(--color-chart-it);
+}
+
+div.marketing {
+    background-color: var(--color-chart-marketing);
+}
+
+div.other {
+    background-color: var(--color-chart-other);
+}
+
+.category-marker {
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+}
+
+#bar-chart-container > svg > g > rect:hover {
+    cursor: pointer;
+}
+
+rect.bar {
+    fill: var(--color-chart-bar);
+}
+
+rect.bar:hover {
+    fill: var(--color-chart-bar-hover);
+}
+
+rect.bar.selected {
+    fill: var(--color-chart-bar-selected);
+}
+
+.loading-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#error-message {
+    display: none;
+}
+
+#placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    background-color: var(--color-bg-light);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--color-bg-light);
+    margin: 5px 0;
+}
+
+div.tooltip {
+    position: absolute;
+    width: 200px;
+    border: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+div.tooltip > .tooltip-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid var(--color-bg-light);
+    background: white;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+}
+
+div.tooltip > .tooltip-content > div {
+    display: flex;
+    align-items: center;
+}
+
+#bar-chart-container > .tooltip-marker-line {
+    position: absolute;
+    width: 1px;
+    background-color: var(--color-bg-light);
+}
+
+.axis {
+    font: 14px "Montserrat", sans-serif;
+}
+
+.axis-label {
+    font-weight: bold;
+}
+
+.user-logo {
+    height: 18px;
+    width: 18px;
+    background: url("../img/account.svg") no-repeat center center;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #bar-chart-container {
+        width: 100%;
+        height: 300px;
+        padding: 0 1px;
+    }
+
+    #donut-chart-container {
+        max-width: 280px;
+    }
+
+    .axis-label {
+        font-size: 14px;
+    }
+
+    div.detail-info-container {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}

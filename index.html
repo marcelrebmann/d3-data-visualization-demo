@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Report</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./styles/font/webfonts.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <script src="js/d3.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+<header>
+    <h2>Employee Report</h2>
+</header>
+<main>
+    <noscript>To use this site, JavaScript has to be enabled!</noscript>
+    <div id="loading-overlay" class="loading-overlay">
+        <img src="img/loader.gif" alt="Loading...">
+        <span id="error-message"></span>
+    </div>
+    <div id="bar-chart-container">
+    </div>
+    <div class="detail-info-container">
+        <div id="donut-chart-container"></div>
+        <div id="placeholder">
+            <span>Please choose a bar!</span>
+        </div>
+        <table id="employee-details-table">
+            <tr>
+                <td>
+                    <div class="category-marker production"></div>
+                </td>
+                <td>Production</td>
+                <td id="value-production"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="category-marker logistics"></div>
+                </td>
+                <td>Logistics</td>
+                <td id="value-logistics"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="category-marker it"></div>
+                </td>
+                <td>IT</td>
+                <td id="value-it"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="category-marker marketing"></div>
+                </td>
+                <td>Marketing</td>
+                <td id="value-marketing"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="category-marker other"></div>
+                </td>
+                <td>Other</td>
+                <td id="value-other"></td>
+            </tr>
+        </table>
+    </div>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+[
+    {
+        "quarter": "Q2/2016",
+        "employees": 8713,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 3467
+            },
+            {
+                "name": "Logistics",
+                "count": 3024
+            },
+            {
+                "name": "IT",
+                "count": 1626
+            },
+            {
+                "name": "Marketing",
+                "count": 576
+            },
+            {
+                "name": "Other",
+                "count": 20
+            }
+        ]
+    },
+    {
+        "quarter": "Q3/2016",
+        "employees": 10156,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 3837
+            },
+            {
+                "name": "Logistics",
+                "count": 3589
+            },
+            {
+                "name": "IT",
+                "count": 2054
+            },
+            {
+                "name": "Marketing",
+                "count": 655
+            },
+            {
+                "name": "Other",
+                "count": 21
+            }
+        ]
+    },
+    {
+        "quarter": "Q4/2016",
+        "employees": 10388,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 3810
+            },
+            {
+                "name": "Logistics",
+                "count": 3740
+            },
+            {
+                "name": "IT",
+                "count": 2054
+            },
+            {
+                "name": "Marketing",
+                "count": 677
+            },
+            {
+                "name": "Other",
+                "count": 107
+            }
+        ]
+    },
+    {
+        "quarter": "Q1/2017",
+        "employees": 12393,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4241
+            },
+            {
+                "name": "Logistics",
+                "count": 4905
+            },
+            {
+                "name": "IT",
+                "count": 2461
+            },
+            {
+                "name": "Marketing",
+                "count": 772
+            },
+            {
+                "name": "Other",
+                "count": 14
+            }
+        ]
+    },
+    {
+        "quarter": "Q2/2017",
+        "employees": 12258,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4183
+            },
+            {
+                "name": "Logistics",
+                "count": 4932
+            },
+            {
+                "name": "IT",
+                "count": 2367
+            },
+            {
+                "name": "Marketing",
+                "count": 765
+            },
+            {
+                "name": "Other",
+                "count": 11
+            }
+        ]
+    },
+    {
+        "quarter": "Q3/2017",
+        "employees": 12834,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4291
+            },
+            {
+                "name": "Logistics",
+                "count": 5319
+            },
+            {
+                "name": "IT",
+                "count": 2373
+            },
+            {
+                "name": "Marketing",
+                "count": 843
+            },
+            {
+                "name": "Other",
+                "count": 8
+            }
+        ]
+    },
+    {
+        "quarter": "Q4/2017",
+        "employees": 12267,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4091
+            },
+            {
+                "name": "Logistics",
+                "count": 5044
+            },
+            {
+                "name": "IT",
+                "count": 2242
+            },
+            {
+                "name": "Marketing",
+                "count": 884
+            },
+            {
+                "name": "Other",
+                "count": 6
+            }
+        ]
+    },
+    {
+        "quarter": "Q1/2018",
+        "employees": 13470,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4505
+            },
+            {
+                "name": "Logistics",
+                "count": 5456
+            },
+            {
+                "name": "IT",
+                "count": 2502
+            },
+            {
+                "name": "Marketing",
+                "count": 999
+            },
+            {
+                "name": "Other",
+                "count": 8
+            }
+        ]
+    },
+    {
+        "quarter": "Q2/2018",
+        "employees": 13169,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4421
+            },
+            {
+                "name": "Logistics",
+                "count": 5267
+            },
+            {
+                "name": "IT",
+                "count": 2384
+            },
+            {
+                "name": "Marketing",
+                "count": 1088
+            },
+            {
+                "name": "Other",
+                "count": 9
+            }
+        ]
+    },
+    {
+        "quarter": "Q3/2018",
+        "employees": 13466,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4497
+            },
+            {
+                "name": "Logistics",
+                "count": 5346
+            },
+            {
+                "name": "IT",
+                "count": 2420
+            },
+            {
+                "name": "Marketing",
+                "count": 1194
+            },
+            {
+                "name": "Other",
+                "count": 9
+            }
+        ]
+    },
+    {
+        "quarter": "Q4/2018",
+        "employees": 12985,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4373
+            },
+            {
+                "name": "Logistics",
+                "count": 5070
+            },
+            {
+                "name": "IT",
+                "count": 2266
+            },
+            {
+                "name": "Marketing",
+                "count": 1266
+            },
+            {
+                "name": "Other",
+                "count": 10
+            }
+        ]
+    },
+    {
+        "quarter": "Q1/2019",
+        "employees": 13378,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4435
+            },
+            {
+                "name": "Logistics",
+                "count": 5233
+            },
+            {
+                "name": "IT",
+                "count": 2379
+            },
+            {
+                "name": "Marketing",
+                "count": 1319
+            },
+            {
+                "name": "Other",
+                "count": 12
+            }
+        ]
+    },
+    {
+        "quarter": "Q2/2019",
+        "employees": 12847,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4241
+            },
+            {
+                "name": "Logistics",
+                "count": 5006
+            },
+            {
+                "name": "IT",
+                "count": 2209
+            },
+            {
+                "name": "Marketing",
+                "count": 1381
+            },
+            {
+                "name": "Other",
+                "count": 10
+            }
+        ]
+    },
+    {
+        "quarter": "Q3/2019",
+        "employees": 13277,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4333
+            },
+            {
+                "name": "Logistics",
+                "count": 4980
+            },
+            {
+                "name": "IT",
+                "count": 2419
+            },
+            {
+                "name": "Marketing",
+                "count": 1535
+            },
+            {
+                "name": "Other",
+                "count": 10
+            }
+        ]
+    },
+    {
+        "quarter": "Q4/2019",
+        "employees": 12764,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4080
+            },
+            {
+                "name": "Logistics",
+                "count": 4728
+            },
+            {
+                "name": "IT",
+                "count": 2295
+            },
+            {
+                "name": "Marketing",
+                "count": 1652
+            },
+            {
+                "name": "Other",
+                "count": 9
+            }
+        ]
+    },
+    {
+        "quarter": "Q1/2020",
+        "employees": 13361,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4596
+            },
+            {
+                "name": "Logistics",
+                "count": 4689
+            },
+            {
+                "name": "IT",
+                "count": 2359
+            },
+            {
+                "name": "Marketing",
+                "count": 1704
+            },
+            {
+                "name": "Other",
+                "count": 13
+            }
+        ]
+    },
+    {
+        "quarter": "Q2/2020",
+        "employees": 12776,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4376
+            },
+            {
+                "name": "Logistics",
+                "count": 4375
+            },
+            {
+                "name": "IT",
+                "count": 2202
+            },
+            {
+                "name": "Marketing",
+                "count": 1814
+            },
+            {
+                "name": "Other",
+                "count": 9
+            }
+        ]
+    },
+    {
+        "quarter": "Q3/2020",
+        "employees": 13119,
+        "departments": [
+            {
+                "name": "Production",
+                "count": 4467
+            },
+            {
+                "name": "Logistics",
+                "count": 4374
+            },
+            {
+                "name": "IT",
+                "count": 2352
+            },
+            {
+                "name": "Marketing",
+                "count": 1918
+            },
+            {
+                "name": "Other",
+                "count": 8
+            }
+        ]
+    }
+]
