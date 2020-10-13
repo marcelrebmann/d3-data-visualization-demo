@@ -7,4 +7,4 @@ The data is loaded from a static JSON file via a fake async request.
 Transforming this to an actual HTTP-Request is possible with little effort.
 
 ## Application
-![App Screenshot](./img/application_screenshot.png)
+![App Screenshot](./img/demo_app.gif)
